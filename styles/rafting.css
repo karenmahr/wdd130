@@ -1,0 +1,66 @@
+* {
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+   
+:root{
+    --primary-color:#074f57;
+    --second-color:#74a57f;
+    --accent1-color:#e2d6cf;
+    --accent2-color:#077187;
+}
+
+header img{
+    width: 5em;
+}
+
+div{
+    width: 100%;
+    text-align: center;
+    position:relative;
+}
+
+div h1{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    background: #074f579d;
+    font-family: "Roboto", sans-serif;
+    color:#e2d6cf;
+}
+
+article{
+    padding:10px;
+    width: 100%;
+    height: auto;
+    background:#074f579d;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    color:#e2d6cf;
+}
+
+#happy {
+    float: right;
+    width: 9em;
+}
+
+h2{
+    color:#74a57f;
+    font-family: "Roboto", sans-serif;
+}
+
+#background{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+section img{
+    width: 100%;
+}
