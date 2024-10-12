@@ -14,6 +14,20 @@
 
 header{
     align-items:center;
+    display: flex;
+    background:#EDE0D4;
+    justify-content:space-around;
+    padding:8px;
+}
+header img{
+    width:100px;
+    height: auto;
+}
+
+.navigation-bar{
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
 }
 
 h1{
@@ -22,8 +36,9 @@ h1{
     text-align: center;
     width: 1183px;
     background:#ffee998e;
-    top:410px;
-    font-family:"Amatic_SC"
+    top:320px;
+    font-family:"Amatic_SC";
+    padding:15px;
 } 
 
 h2{
@@ -36,6 +51,17 @@ h2{
     width: 100%;
     height: auto;
     position:relative;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
 }
 
 #happyclient{
@@ -55,6 +81,63 @@ article{
 
 section{
     position: relative;
-    width:100%;
+}
+
+.title{
+    text-align:center;
+}
+
+.content{
+    text-align:justify;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+.history-image img{
+    width: 100%;
     height: auto;
 }
+
+.adventure{
+    text-align:center;
+}
+
+.figure{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    grid-template-rows: 20px 20px 20px 20px;
+}
+
+figure img {
+    width: 150px;  
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  figure {  
+    text-align: center;
+  }
+  
+  footer{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+  }
+
+  footer img{
+    width: 30px;  
+    height: 30px; 
+    justify-content:flex-end;
+  }
+
+  .copyright{
+    flex:1;
+    text-align:center;
+  }
+
+  .sociallinks a{
+    margin-left:10px;
+  }
