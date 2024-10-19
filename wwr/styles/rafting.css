@@ -32,18 +32,16 @@ header img{
 
 h1{
     color:#003566;
-    position: absolute;
+    position: relative;
     text-align: center;
-    width: 1183px;
-    background:#ffee998e;
-    top:320px;
     font-family:"Amatic_SC";
-    padding:15px;
 } 
 
 h2{
     color:#003566;
-    font-family:"Roboto"
+    position: relative;
+    text-align: center;
+    font-family:"Amatic_SC";
 }
 
 .hero img{
@@ -117,27 +115,135 @@ figure img {
     object-fit: cover;
   }
   
-  figure {  
+figure {  
     text-align: center;
   }
   
-  footer{
+footer{
     display:flex;
     flex-direction: row;
     align-items:center;
   }
 
-  footer img{
+footer img{
     width: 30px;  
     height: 30px; 
     justify-content:flex-end;
   }
 
-  .copyright{
+.copyright{
     flex:1;
     text-align:center;
   }
 
-  .sociallinks a{
+.sociallinks a{
     margin-left:10px;
   }
+
+.images{
+    display: flex;
+    flex-direction:row;
+    width: 650px;
+    margin:0 auto;
+    padding:1rem;
+    border-radius:0.5rem;
+}
+
+form{
+    width: 650px;
+    margin:0 auto;
+    padding:1rem;
+    border:1px solid rgba(0,0,0,0.1);
+    background-color:#00356622;
+    border-radius:0.5rem;
+    display:grid;
+    margin-top: 20px;
+}
+
+.contact-info{
+    width: 650px;
+    margin:0 auto;
+    padding:1rem;
+    border:1px solid rgba(0,0,0,0.1);
+    background-color:#00356622;
+    border-radius:0.5rem;
+    display:grid;
+    align-items: center;
+}
+
+.contact{
+    display:flex;
+    flex-direction: row;
+}
+
+.address{
+    display:flex;
+    flex-direction: row;
+}
+fieldset{
+    display:grid;
+    grid-gap:.5rem;
+    margin:1rem;
+    border:1px solid rgba(0,0,0,0.2);
+    padding:20px;
+}
+
+legend{
+    padding:0.5rem;
+    color:navy;
+    font-size:1.3em;
+}
+
+label, input, button, select, textarea{
+    font-family:"Amatic_SC"; 
+}
+
+label{
+    text-align:center;
+    padding-right:1rem;
+}
+
+input, select, textarea{
+    padding:0.5rem;
+    font-size:1.1rem;
+}
+
+button{
+    margin:1rem;
+    background-color:navy;
+    color:#fff;
+    border:none;
+    border-radius:.5rem;
+    padding:.75rem;
+    font-size:1.2rem;
+}
+
+button:hover{
+    background-color:darkgreen;
+}
+
+input[type="checkbox"] {
+    width:22px;
+    height:22px;
+    vertical-align:center;
+}
+
+.form-item{
+    display:grid;
+}
+
+.radio-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px; 
+}
+
+.column2{
+    grid-template-columns:1fr 2fr;
+}
+
+.column1{
+    grid-template-columns:3fr 1fr;
+    margin:0.5rem 0;
+}
