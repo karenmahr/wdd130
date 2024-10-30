@@ -287,6 +287,12 @@ input[type="checkbox"] {
     margin:0.5rem 0;
 }
 
+.wireframe-container a {
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+}
+
 /*trip page*/ 
 a {
     text-decoration: none;
