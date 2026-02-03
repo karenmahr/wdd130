@@ -1,16 +1,26 @@
-nav {
+header {
+    align-items: center;
+    column-gap: 8px;
     background-color: steelblue;
-    padding: 10px;
 }
 
-nav a {
+a {
+    text-decoration: none;
     color: white;
-    display: block;
-    padding: 20px;
+    text-align: center;
+    padding: .5rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 h1 {
     color: steelblue;
+    text-align: center;
 }
 
 img {
@@ -29,6 +39,17 @@ main {
     max-width: 840px;
 }
 
+.about{
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    border-radius: 20%;
+}
+
 aside {
     width: 20rem;
     margin: 1rem;
@@ -37,16 +58,19 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    border-radius: 20%;
 }
 
 aside img {
-    width: 200px;
+    width: 100%;
     height: auto;
+    border-radius: 20%;
 }
 
 main img {
-    width: 150px;
+    width: 35%;
     height: auto;
+    border-radius: 20%;
 }
 
 footer {
