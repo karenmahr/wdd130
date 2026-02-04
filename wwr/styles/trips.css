@@ -1,0 +1,143 @@
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Amatic_SC";
+    font-size: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #d2d4c87d;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px gray;
+    border: 1px solid #003566;
+    padding: 2px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.trips-button {
+    background: #003566;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.trips-p {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    text-align: center;
+    align-items: center;
+}
+
+.trip-descriptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid rgb(160 160 160);
+    padding: 8px 10px;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: rgb(237 238 242);
+}
+
+thead {
+    background-color: #1a537642;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #003566;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button-link:hover {
+    background-color: #27AE60;
+}
+
+.pictures img {
+    width: 270px;
+    height: 200px;
+    box-shadow: 0 0 30px gray;
+    border: 1px solid #003566;
+    padding: 2px;
+}
+
+.purpose {
+    display: flex;
+    flex-direction: row;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #1a537642;
+    color: #333;
+    box-shadow: 0 0 30px gray;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.purpose-title {
+    display: block;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: block;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.text-purpose {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

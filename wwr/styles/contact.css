@@ -1,0 +1,127 @@
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #D5D8DC;
+    justify-content: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #1a537642;
+    border-radius: 0.5rem;
+    display: grid;
+    margin-top: 20px;
+    box-shadow: 0 0 30px gray;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.contact-info {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #1a537642;
+    border-radius: 0.5rem;
+    display: grid;
+    align-items: center;
+    box-shadow: 0 0 30px gray;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border: 1px solid #003566;
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.3em;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: "Amatic_SC";
+}
+
+label {
+    text-align: center;
+    padding-right: 1rem;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: #1A5276;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #27AE60;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: center;
+}
+
+.form-item {
+    display: grid;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.wireframe-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}

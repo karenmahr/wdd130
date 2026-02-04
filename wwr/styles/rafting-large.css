@@ -5,4 +5,9 @@
         margin: 0 auto;
     }
 
+    .page-content {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
