@@ -27,6 +27,15 @@ header img {
     height: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Amatic_SC";
+}
+
+li {
+    list-style-type: none;
+}
 
 .navigation-bar {
     display: flex;
@@ -175,5 +184,38 @@ footer img {
 
 .purpose{
     background-color: #AAB7B8;
-    border-radius: 5%;
+    padding:1rem;
+    margin:0px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: #D5D8DC;
+    justify-content: center;
+}
+
+form {
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #AAB7B8;
+    display: grid;
+}
+
+.button-link {
+    margin: 1rem;
+    background-color: #1A5276;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+.button-link:hover {
+    background-color: #27AE60;
 }
