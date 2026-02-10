@@ -1,0 +1,8 @@
+@media only screen and (min-width:38rem) {
+
+    * {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+}
