@@ -17,4 +17,13 @@
         grid-template-columns: auto auto;
     }
 
+    .figure {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        grid-template-rows: 20px 20px 20px 20px;
+        column-gap: 5px;
+    }
+
 }
