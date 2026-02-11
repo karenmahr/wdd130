@@ -17,6 +17,7 @@ a {
     text-decoration: none;
     color: #ffffff;
     font-family: "Amatic_SC";
+    padding: .5rem;
 }
 
 li {
@@ -185,6 +186,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 1rem;
 }
 
 footer img {

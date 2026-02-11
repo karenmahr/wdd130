@@ -21,6 +21,7 @@ a {
     text-decoration: none;
     color: #ffffff;
     font-family: "Amatic_SC";
+    padding: .5rem;
 }
 
 li {
@@ -39,6 +40,7 @@ h1 {
     position: relative;
     text-align: center;
     font-family: "Amatic_SC";
+    padding:1rem;
    
 }
 
@@ -92,13 +94,25 @@ form {
 }
 
 .contact {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+    padding:10px;
 }
 
 .address {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    padding: 10px;
+}
+
+.address p{
+    width:70px;
+}
+
+iframe{
+    border: 1px solid #003566;
 }
 
 fieldset {
@@ -186,6 +200,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 1rem;
 }
 
 footer img {
